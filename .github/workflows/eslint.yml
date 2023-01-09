@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [main]
 
-job:
+jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
